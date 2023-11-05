@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    margin: 10px 25px;
+    padding: 5px;
+    background-color: antiquewhite;
+}
+
+.payment {
+    background-color: antiquewhite;
+    padding: 10px 20px 15px 20px;
+    border: 2px solid rgb(147, 2, 31);
+    color: rgb(147, 2, 31);
+}
+
+.submit {
+    margin-top: 15px;
+    margin-left: 3px;
+    padding: 5px 10px;
+    border: 2px solid rgb(147, 2, 31);
+    background-color: antiquewhite;
+    color:rgb(147, 2, 31);
+}
