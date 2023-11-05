@@ -1,0 +1,458 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('/b1.jpg') no-repeat center center/cover;
+  color: rgb(255, 255, 255);
+  font-family: 'Poppins', sans-serif;
+  padding: scroll;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  height: 70px;
+  width: 100%;
+  left: 0px;
+  z-index: 10;
+  justify-content: space-around;
+  background-color: black;
+  opacity: 0.5;
+}
+
+nav ul {
+  display: flex;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+nav ul li {
+  margin: 100px 25px;
+  list-style: none;
+  font-size: 1.4rem;
+}
+
+nav ul li a {
+  color: antiquewhite;
+  display: block;
+  padding: 5px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  color: black;
+  background-color: antiquewhite;
+}
+
+.left {
+  font-size: 1.7rem;
+  color: antiquewhite;
+}
+
+.firstsection {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 150px 0;
+}
+
+.firstsection div {
+  width:100%;
+}
+
+.firstsection div p {
+  color: rgb(163, 142, 212);
+  /* KHUSHI SHARMA */
+}
+
+.leftsection {
+  font-size: 3rem;
+}
+
+.leftsectionmyname {
+  font-size: 3rem;
+  color: white
+}
+
+.leftsection .buttons {
+  padding: 6px 0px;
+  display: flexbox;
+
+}
+
+.leftsection .btn {
+  opacity: 0.7;
+  padding: 6px 20px;
+  border: 2px solid rgb(163, 142, 212);
+  background-color: black;
+  color: rgb(163, 142, 212);
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.leftsection .btn:hover {
+  padding: 6px 20px;
+  border: 2px solid rgb(0, 0, 0);
+  background-color: rgb(163, 142, 212);
+  color: rgb(0, 0, 0);
+  margin: 17px;
+  font-size: 1.5rem;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.rightsection img {
+  width: 70%;
+  margin: -35px 101px;
+
+}
+
+/* #element{
+color: green ;
+font-size: 1.8;
+text-decoration-color: rgb(27, 177, 27);
+} */
+.secondsection {
+  padding: 80px 0px;
+  max-width: 80vw;
+  margin: auto;
+  height: 85vh;
+
+}
+
+.secondsection h1 {
+
+  font-size: 1.8rem;
+
+}
+
+main hr {
+  border: 0;
+  height: 0.3px;
+  background-color: rgba(11, 24, 61, 0.553);
+  margin: 30px 50px;
+}
+
+.text-grey {
+  color: black;
+}
+
+.secondsection .box {
+  background-color: white;
+  width: 79vw;
+  height: 2px;
+  margin: 56px 0;
+  display: flex;
+
+}
+
+.secondsection .vertical {
+  height: 93px;
+  background-color: white;
+  width: 1px;
+  margin: 0 120px;
+}
+
+.image-top {
+  width: 45px;
+  position: relative;
+  top: -52px;
+  left: -18px;
+}
+
+.image-top2 {
+  width: 34px;
+  position: relative;
+  top: -55px;
+  left: -11px;
+}
+
+.image-top3 {
+  width: 50px;
+  position: relative;
+  top: -56px;
+  left: -18px;
+}
+
+.vertical-title {
+  position: relative;
+  top: 71px;
+
+
+}
+
+.vertical-desc {
+  position: relative;
+  top: 81px;
+  font-size: 13px;
+  width: 160px;
+
+}
+
+.fourthsection {
+  padding: 80px 0px;
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+
+}
+
+.fourthsection h1 {
+
+  font-size: 1.8rem;
+
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgb(27, 101, 144),
+    inset -5px -5px 15px rgba(42, 110, 136, 0.935),
+    5px 5px 15px rgba(45, 142, 172, 0.663), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.6s;
+}
+
+.thirdsection {
+  padding: 80px 0px;
+  max-width: 80vw;
+  margin: auto;
+  height: 80vh;
+
+}
+
+.thirdsection h1 {
+
+  font-size: 1.8rem;
+
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 40px 0;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 320px;
+  height: 440px;
+  box-shadow: inset 5px 5px 5px rgb(27, 101, 144),
+    inset -5px -5px 15px rgba(42, 110, 136, 0.935),
+    5px 5px 15px rgba(45, 142, 172, 0.663), -5px -5px 15px rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  margin: 30px;
+  transition: 0.6s;
+}
+
+body .container .card:nth-child(1) .box .content a {
+  background: #2196f3;
+}
+
+body .container .card:nth-child(2) .box .content a {
+  background: #e91e63;
+}
+
+body .container .card:nth-child(3) .box .content a {
+  background: #23c186;
+}
+
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: rgb(27, 101, 144);
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.6s;
+}
+
+body .container .card .box:hover {
+
+  transform: translateY(-50px);
+
+
+}
+
+body .container .card .box:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: rgba(11, 24, 61, 0.553);
+}
+
+body .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+
+body .container .card .box .content h2 {
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8rem;
+  color: rgba(255, 255, 255, 0.1);
+}
+
+body .container .card .box .content h3 {
+  font-size: 1.8rem;
+  color: #f1f1f1;
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container .card .box .content p {
+  font-size: 1rem;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.9);
+  z-index: 1;
+  transition: 0.5s;
+}
+
+body .container .card .box .content a {
+  position: relative;
+  display: inline-block;
+  padding: 8px 20px;
+  background: black;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  margin-top: 20px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.5s;
+}
+
+body .container .card .box .content a:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+  background: #fff;
+  color: #000;
+}
+
+footer {
+  background-color: rgb(12, 8, 8);
+}
+
+.footerContainer {
+  width: 100%;
+  padding: 20px 20px 10px;
+
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+
+.socialIcons a i {
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+
+}
+
+.socialIcons a:hover {
+  background-color: black;
+  transition: 0.5s;
+
+}
+
+.socialIcons a:hover i {
+  color: white;
+  transition: 0.5s;
+
+}
+
+.footerNav {
+  margin: 30px 0;
+  text-decoration: none;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+
+}
+
+.footerNav ul li {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+
+}
+
+.footerNav ul li a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
+  font-size: 1.3em;
+  opacity: 0.7;
+  transition: 0.5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.footerBottom {
+  background-color: black;
+  padding: 20px;
+  text-align: center;
+}
+
+.footerBottom p {
+  color: white;
+}
+
+.designer {
+  opacity: 0.7;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 400;
+  margin: 0px 5px;
+}
+
+@media(max-width:700px) {
+  .footerNav ul {
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 300px) {}
